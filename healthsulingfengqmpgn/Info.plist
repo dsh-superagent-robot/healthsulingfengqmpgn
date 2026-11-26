@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>心率检测助手</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundleAlternateIcons</key>
+		<dict>
+			<key>AppIcon-v1</key>
+			<dict>
+				<key>CFBundleIconName</key>
+				<string>AppIcon-v1</string>
+			</dict>
+			<key>AppIcon-v2</key>
+			<dict>
+				<key>CFBundleIconName</key>
+				<string>AppIcon-v2</string>
+			</dict>
+			<key>AppIcon-v3</key>
+			<dict>
+				<key>CFBundleIconName</key>
+				<string>AppIcon-v3</string>
+			</dict>
+			<key>AppIcon-v4</key>
+			<dict>
+				<key>CFBundleIconName</key>
+				<string>AppIcon-v4</string>
+			</dict>
+			<key>AppIcon-v5</key>
+			<dict>
+				<key>CFBundleIconName</key>
+				<string>AppIcon-v5</string>
+			</dict>
+			<key>AppIcon-v6</key>
+			<dict>
+				<key>CFBundleIconName</key>
+				<string>AppIcon-v6</string>
+			</dict>
+		</dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppIcon60x60</string>
+			</array>
+			<key>CFBundleIconName</key>
+			<string>AppIcon</string>
+		</dict>
+	</dict>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>en</string>
+		<string>zh-Hans</string>
+	</array>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>We need access to your camera to measure your heart rate.</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>Providing access to your Health Data allows the app to deliver personalized and detailed health insights.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>Providing access to your Health Data allows the app to deliver personalized and detailed health insights.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Choose a profile photo from your library.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIColorName</key>
+		<string>LaunchScreenBackground</string>
+	</dict>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,6 @@
+"CFBundleDisplayName" = "Heart Rate Detection Assistant";
+"CFBundleName" = "Heart Rate Detection Assistant";
+"NSCameraUsageDescription" = "We need access to your camera to measure your heart rate.";
+"NSPhotoLibraryUsageDescription" = "Choose a profile photo from your library.";
+"NSHealthShareUsageDescription" = "Providing access to your Health Data allows the app to deliver personalized and detailed health insights.";
+"NSHealthUpdateUsageDescription" = "Providing access to your Health Data allows the app to deliver personalized and detailed health insights.";

@@ -19,6 +19,9 @@ settings:
     MARKETING_VERSION: "1.0.0" # 版本号
     SWIFT_VERSION: "5.9" # Swift 版本
     ASSETCATALOG_COMPILER_APPICON_NAME: "AppIcon" # AppIcon 资产组名称
+    ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS: "YES"
+    CODE_SIGN_ENTITLEMENTS: healthsulingfengqmpgn/healthsulingfengqmpgn.entitlements
+    INFOPLIST_KEY_CFBundleDevelopmentRegion: en
 
 # Target 定义
 # 可以按需添加多个 targets
@@ -42,10 +45,86 @@ targets:
         CFBundleDisplayName: "心率检测助手"
         CFBundleShortVersionString: "$(MARKETING_VERSION)"
         CFBundleVersion: "$(CURRENT_PROJECT_VERSION)"
+        CFBundleDevelopmentRegion: en
+        CFBundleLocalizations:
+          - en
+          - zh-Hans
         UILaunchScreen:
           UIColorName: LaunchScreenBackground # 启动屏背景色资产
-        UIUserInterfaceStyle: Light # 强制浅色模式
         UISupportedInterfaceOrientations:
           - UIInterfaceOrientationPortrait # iPhone 竖屏
         NSAppTransportSecurity:
           NSAllowsArbitraryLoads: true # 允许非 HTTPS（必须）
+        NSCameraUsageDescription: "We need access to your camera to measure your heart rate."
+        NSPhotoLibraryUsageDescription: "Choose a profile photo from your library."
+        NSHealthShareUsageDescription: "Providing access to your Health Data allows the app to deliver personalized and detailed health insights."
+        NSHealthUpdateUsageDescription: "Providing access to your Health Data allows the app to deliver personalized and detailed health insights."
+        UIBackgroundModes:
+          - fetch
+          - remote-notification
+        ITSAppUsesNonExemptEncryption: false
+        CFBundleIcons:
+          CFBundlePrimaryIcon:
+            CFBundleIconName: AppIcon
+            CFBundleIconFiles:
+              - AppIcon60x60
+          CFBundleAlternateIcons:
+            AppIcon-v1:
+              CFBundleIconName: AppIcon-v1
+            AppIcon-v2:
+              CFBundleIconName: AppIcon-v2
+            AppIcon-v3:
+              CFBundleIconName: AppIcon-v3
+            AppIcon-v4:
+              CFBundleIconName: AppIcon-v4
+            AppIcon-v5:
+              CFBundleIconName: AppIcon-v5
+            AppIcon-v6:
+              CFBundleIconName: AppIcon-v6
+
+
+  healthsulingfengqmpgnUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - path: UITests
+    dependencies:
+      - target: healthsulingfengqmpgn
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.silverdawn.frostyhill.myst.uitests
+        GENERATE_INFOPLIST_FILE: "YES"
+        TEST_TARGET_NAME: healthsulingfengqmpgn
+
+  healthsulingfengqmpgnTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: Tests
+    dependencies:
+      - target: healthsulingfengqmpgn
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.silverdawn.frostyhill.myst.tests
+        GENERATE_INFOPLIST_FILE: "YES"
+
+schemes:
+  healthsulingfengqmpgn:
+    build:
+      targets:
+        healthsulingfengqmpgn: all
+        healthsulingfengqmpgnTests: [test]
+        healthsulingfengqmpgnUITests: [test]
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - name: healthsulingfengqmpgnTests
+        - name: healthsulingfengqmpgnUITests
+    profile:
+      config: Release
+    analyze:
+      config: Debug
+    archive:
+      config: Release

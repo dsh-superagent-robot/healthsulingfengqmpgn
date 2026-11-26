@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		032D68402912AED9CEA39999 /* AppleHealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFD2ECCC1190DC72133A060 /* AppleHealthView.swift */; };
+		06863BCBC0AE260C7B0DA577 /* HealthSenseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EEDCE8560F1667C45113FE /* HealthSenseUITests.swift */; };
+		0A361522797B3069CADD786E /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1719ADC7100FB9A2A57A7B68 /* DashboardView.swift */; };
+		0B0F9FCDB0FA828C1B65C8EA /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D62018525968F11E556AC3B /* OnboardingView.swift */; };
+		0CF07D0033C18BED157C650C /* RemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885D3DB68AC09F483249C3A9 /* RemindersView.swift */; };
+		11A4675693CC2F12238EF6C9 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D54FC3D63184B5315B381AE /* NotificationService.swift */; };
+		12A873D46F9725415997E5DF /* InsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294362AB920D3EA21ACA2B28 /* InsightsView.swift */; };
+		226927D42349158F1FFAB0AE /* HealthSenseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF431BA3977AED0847A6B6A /* HealthSenseTests.swift */; };
+		4017ED5ED3EF3218E0A6F007 /* healthsulingfengqmpgnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5031D45C6A25C44443C21E /* healthsulingfengqmpgnApp.swift */; };
+		449A12BBC7370625A0EE967D /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E666E02034EBC5C1202C6C2 /* AchievementsView.swift */; };
+		48F914F3019A8D187ECBBD56 /* AchievementData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65DE748DBE63C94AF4E1279 /* AchievementData.swift */; };
+		4C45623E8E7EB6286C7682E4 /* HealthKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A45BB5075292409D7599CE /* HealthKitService.swift */; };
+		4D8EFEC0957E9BF3F060F31F /* MeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D185B704F0C19E36DBF7D3E /* MeView.swift */; };
+		4E42CF5B8EA04401F0510AFB /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425B6D7460AA7C7954CD85AB /* Components.swift */; };
+		5D99F491065B2B2B4A245A38 /* InsightsEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EC310AF4DBBF4590B5EB66 /* InsightsEngine.swift */; };
+		7321CBC924B45C7F7543D897 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7551505902CF403CEEB65E22 /* ProfileView.swift */; };
+		79ACB21B2D23BE66FD4E315C /* TagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ED4D0241900842D5CFAE37 /* TagsView.swift */; };
+		7BCE691BC18B49E3D9DD658C /* ManualLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F50E1F1881EF704C53FCE9F /* ManualLogView.swift */; };
+		7C37DFACEC214787735F77BA /* ArticleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E89D900D8BB6F46F0261527 /* ArticleData.swift */; };
+		84694DDA860CE84036EC4302 /* SubscriptionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62E78C17F88BD4CF9934FF6 /* SubscriptionStore.swift */; };
+		89EC141AE75D62EF809BA37A /* MonthlyOverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE42564AC77857E8AE47D0F /* MonthlyOverviewView.swift */; };
+		8A1C08FC2BE763D231256BE9 /* TagCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8F5E9FA10AEC09F745E8C6 /* TagCatalog.swift */; };
+		8B81C9089BB5D41811B7BE8A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7506D2916541AFCF51DCC8A3 /* HomeView.swift */; };
+		900181A9E15863AB0C71A3A7 /* AssessmentViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E457BE1DD5DA33F463E6FE /* AssessmentViews.swift */; };
+		9E9FB34A408002688AD3A83D /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611A7D4D2921BAD6BCFD840F /* HistoryView.swift */; };
+		BEF8433A85846896C5D90B5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E7D5C70D5DDD59417127861 /* Assets.xcassets */; };
+		BFDCD2551630036689A6EB60 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249ACDF2E7AF0372A33AD5C2 /* Theme.swift */; };
+		C744A80B09427503A28FF309 /* ProgressEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A2DBED853DC0C04D65B711 /* ProgressEngine.swift */; };
+		CBFDAF5DCA8534F834B4CE63 /* JourneyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C31A20A84298E772FD750F /* JourneyData.swift */; };
+		CC1E2524C0E96DFB8E3CC573 /* MeasurementEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800E6CE9EE29C98335D8F75D /* MeasurementEngine.swift */; };
+		CDF6780DA5CF987192F6A489 /* DemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34C72B48D138B44D79C7C92 /* DemoData.swift */; };
+		CE61E3B2AECB1CA7657BF12A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869330C997830C730E490C58 /* Persistence.swift */; };
+		DC3BA9FBB0BD9EE86ECDD9B6 /* JourneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4478B62F1441C28F1814F1E2 /* JourneyView.swift */; };
+		DC9A9EBB65192A55BE1DA70F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B3C175E63A4C2068E96E6B4 /* InfoPlist.strings */; };
+		DEFFA3288DC3FB2C47E87305 /* UpdateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7828F0D6B11E552A3EBF45EB /* UpdateService.swift */; };
+		E1481E0297850AA6E36891C5 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540C3F510DC4014516496845 /* PaywallView.swift */; };
+		E5E743877D743A85F43C5DC8 /* MeasurementFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA12A11637D6A47B8835660 /* MeasurementFlow.swift */; };
+		ED553310E873376F93BA3892 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E15EFBD1A6F17D4A99EFAD /* AppModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72B639F897F56064EAD97708 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EDD7AAAFE5750D4887F529A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2ABF59EE1382F6E2C3ADF0D9;
+			remoteInfo = healthsulingfengqmpgn;
+		};
+		936712B24F71B37BB5EC0BEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EDD7AAAFE5750D4887F529A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2ABF59EE1382F6E2C3ADF0D9;
+			remoteInfo = healthsulingfengqmpgn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D54FC3D63184B5315B381AE /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		0E7D5C70D5DDD59417127861 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1719ADC7100FB9A2A57A7B68 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		21E457BE1DD5DA33F463E6FE /* AssessmentViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessmentViews.swift; sourceTree = "<group>"; };
+		21EC310AF4DBBF4590B5EB66 /* InsightsEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsEngine.swift; sourceTree = "<group>"; };
+		249ACDF2E7AF0372A33AD5C2 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		294362AB920D3EA21ACA2B28 /* InsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsView.swift; sourceTree = "<group>"; };
+		2DFD2ECCC1190DC72133A060 /* AppleHealthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleHealthView.swift; sourceTree = "<group>"; };
+		2EAED89AC208678DF7B3D7C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2F88079F5EDCEE9449F5E9CD /* healthsulingfengqmpgnUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = healthsulingfengqmpgnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32889F3EBE329629D7606CED /* healthsulingfengqmpgnTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = healthsulingfengqmpgnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B3E11AD5C001BDE8D7C8539 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D185B704F0C19E36DBF7D3E /* MeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView.swift; sourceTree = "<group>"; };
+		3DF431BA3977AED0847A6B6A /* HealthSenseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthSenseTests.swift; sourceTree = "<group>"; };
+		425B6D7460AA7C7954CD85AB /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		4478B62F1441C28F1814F1E2 /* JourneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyView.swift; sourceTree = "<group>"; };
+		4D62018525968F11E556AC3B /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		540C3F510DC4014516496845 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		611A7D4D2921BAD6BCFD840F /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		7506D2916541AFCF51DCC8A3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7551505902CF403CEEB65E22 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		7828F0D6B11E552A3EBF45EB /* UpdateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateService.swift; sourceTree = "<group>"; };
+		7AE42564AC77857E8AE47D0F /* MonthlyOverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyOverviewView.swift; sourceTree = "<group>"; };
+		7F50E1F1881EF704C53FCE9F /* ManualLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualLogView.swift; sourceTree = "<group>"; };
+		800E6CE9EE29C98335D8F75D /* MeasurementEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementEngine.swift; sourceTree = "<group>"; };
+		869330C997830C730E490C58 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		885D3DB68AC09F483249C3A9 /* RemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersView.swift; sourceTree = "<group>"; };
+		8B65B4632F18EED685E24124 /* healthsulingfengqmpgn.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = healthsulingfengqmpgn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E666E02034EBC5C1202C6C2 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		8E89D900D8BB6F46F0261527 /* ArticleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleData.swift; sourceTree = "<group>"; };
+		93EEDCE8560F1667C45113FE /* HealthSenseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthSenseUITests.swift; sourceTree = "<group>"; };
+		94A45BB5075292409D7599CE /* HealthKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitService.swift; sourceTree = "<group>"; };
+		9E8F5E9FA10AEC09F745E8C6 /* TagCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCatalog.swift; sourceTree = "<group>"; };
+		A1C31A20A84298E772FD750F /* JourneyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyData.swift; sourceTree = "<group>"; };
+		B65DE748DBE63C94AF4E1279 /* AchievementData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementData.swift; sourceTree = "<group>"; };
+		C2E15EFBD1A6F17D4A99EFAD /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		C3A2DBED853DC0C04D65B711 /* ProgressEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressEngine.swift; sourceTree = "<group>"; };
+		C596C2139048394236604CF9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		C62E78C17F88BD4CF9934FF6 /* SubscriptionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionStore.swift; sourceTree = "<group>"; };
+		CF5031D45C6A25C44443C21E /* healthsulingfengqmpgnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = healthsulingfengqmpgnApp.swift; sourceTree = "<group>"; };
+		F310B0E01E2EDCA9A8B2B587 /* healthsulingfengqmpgn.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = healthsulingfengqmpgn.entitlements; sourceTree = "<group>"; };
+		F34C72B48D138B44D79C7C92 /* DemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoData.swift; sourceTree = "<group>"; };
+		F6ED4D0241900842D5CFAE37 /* TagsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsView.swift; sourceTree = "<group>"; };
+		FBA12A11637D6A47B8835660 /* MeasurementFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementFlow.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		180507E917A0AD51F0C5A2E0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C2E15EFBD1A6F17D4A99EFAD /* AppModel.swift */,
+				425B6D7460AA7C7954CD85AB /* Components.swift */,
+				869330C997830C730E490C58 /* Persistence.swift */,
+				249ACDF2E7AF0372A33AD5C2 /* Theme.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2A5C30A16CF9518A5030F753 /* healthsulingfengqmpgn */ = {
+			isa = PBXGroup;
+			children = (
+				0E7D5C70D5DDD59417127861 /* Assets.xcassets */,
+				F310B0E01E2EDCA9A8B2B587 /* healthsulingfengqmpgn.entitlements */,
+				CF5031D45C6A25C44443C21E /* healthsulingfengqmpgnApp.swift */,
+				2EAED89AC208678DF7B3D7C3 /* Info.plist */,
+				180507E917A0AD51F0C5A2E0 /* Core */,
+				6B04282F07E80756F4A4988C /* Data */,
+				6B3C175E63A4C2068E96E6B4 /* InfoPlist.strings */,
+				E326B52A205F19665659C28E /* Services */,
+				E710665CBE45FBD04B2CE1C6 /* Views */,
+			);
+			path = healthsulingfengqmpgn;
+			sourceTree = "<group>";
+		};
+		6B04282F07E80756F4A4988C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B65DE748DBE63C94AF4E1279 /* AchievementData.swift */,
+				8E89D900D8BB6F46F0261527 /* ArticleData.swift */,
+				F34C72B48D138B44D79C7C92 /* DemoData.swift */,
+				A1C31A20A84298E772FD750F /* JourneyData.swift */,
+				9E8F5E9FA10AEC09F745E8C6 /* TagCatalog.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		72B7D246356586D58185FB60 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				93EEDCE8560F1667C45113FE /* HealthSenseUITests.swift */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		7D993A034019B3899F943E15 = {
+			isa = PBXGroup;
+			children = (
+				2A5C30A16CF9518A5030F753 /* healthsulingfengqmpgn */,
+				9FF472FEE04CFE7861F1C5C8 /* Tests */,
+				72B7D246356586D58185FB60 /* UITests */,
+				FC726C14BA766BCF48090E3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FF472FEE04CFE7861F1C5C8 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3DF431BA3977AED0847A6B6A /* HealthSenseTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		E326B52A205F19665659C28E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				94A45BB5075292409D7599CE /* HealthKitService.swift */,
+				21EC310AF4DBBF4590B5EB66 /* InsightsEngine.swift */,
+				800E6CE9EE29C98335D8F75D /* MeasurementEngine.swift */,
+				0D54FC3D63184B5315B381AE /* NotificationService.swift */,
+				C3A2DBED853DC0C04D65B711 /* ProgressEngine.swift */,
+				C62E78C17F88BD4CF9934FF6 /* SubscriptionStore.swift */,
+				7828F0D6B11E552A3EBF45EB /* UpdateService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E710665CBE45FBD04B2CE1C6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8E666E02034EBC5C1202C6C2 /* AchievementsView.swift */,
+				2DFD2ECCC1190DC72133A060 /* AppleHealthView.swift */,
+				21E457BE1DD5DA33F463E6FE /* AssessmentViews.swift */,
+				1719ADC7100FB9A2A57A7B68 /* DashboardView.swift */,
+				611A7D4D2921BAD6BCFD840F /* HistoryView.swift */,
+				7506D2916541AFCF51DCC8A3 /* HomeView.swift */,
+				294362AB920D3EA21ACA2B28 /* InsightsView.swift */,
+				4478B62F1441C28F1814F1E2 /* JourneyView.swift */,
+				7F50E1F1881EF704C53FCE9F /* ManualLogView.swift */,
+				FBA12A11637D6A47B8835660 /* MeasurementFlow.swift */,
+				3D185B704F0C19E36DBF7D3E /* MeView.swift */,
+				7AE42564AC77857E8AE47D0F /* MonthlyOverviewView.swift */,
+				4D62018525968F11E556AC3B /* OnboardingView.swift */,
+				540C3F510DC4014516496845 /* PaywallView.swift */,
+				7551505902CF403CEEB65E22 /* ProfileView.swift */,
+				885D3DB68AC09F483249C3A9 /* RemindersView.swift */,
+				F6ED4D0241900842D5CFAE37 /* TagsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FC726C14BA766BCF48090E3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B65B4632F18EED685E24124 /* healthsulingfengqmpgn.app */,
+				32889F3EBE329629D7606CED /* healthsulingfengqmpgnTests.xctest */,
+				2F88079F5EDCEE9449F5E9CD /* healthsulingfengqmpgnUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2ABF59EE1382F6E2C3ADF0D9 /* healthsulingfengqmpgn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6D8311289C8167F91BAB288 /* Build configuration list for PBXNativeTarget "healthsulingfengqmpgn" */;
+			buildPhases = (
+				59CE262BEA5EBC28CF8E9710 /* Sources */,
+				8BB21D2A3387E0876457CEED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = healthsulingfengqmpgn;
+			packageProductDependencies = (
+			);
+			productName = healthsulingfengqmpgn;
+			productReference = 8B65B4632F18EED685E24124 /* healthsulingfengqmpgn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCC100435BEFCDEE49FC1AD0 /* healthsulingfengqmpgnUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A4D5CD15F96BB0FEFA818FB /* Build configuration list for PBXNativeTarget "healthsulingfengqmpgnUITests" */;
+			buildPhases = (
+				9771B22EA1631C7401D4C18F /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AB1BEE0304F30ACEE2339B0 /* PBXTargetDependency */,
+			);
+			name = healthsulingfengqmpgnUITests;
+			packageProductDependencies = (
+			);
+			productName = healthsulingfengqmpgnUITests;
+			productReference = 2F88079F5EDCEE9449F5E9CD /* healthsulingfengqmpgnUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		EF0D4C68B305AADBC942A3B4 /* healthsulingfengqmpgnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C242A4477E7A7FAAED219CBC /* Build configuration list for PBXNativeTarget "healthsulingfengqmpgnTests" */;
+			buildPhases = (
+				ED2BCF59F45B31D40E7EECBF /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7156C2B046930B511417654B /* PBXTargetDependency */,
+			);
+			name = healthsulingfengqmpgnTests;
+			packageProductDependencies = (
+			);
+			productName = healthsulingfengqmpgnTests;
+			productReference = 32889F3EBE329629D7606CED /* healthsulingfengqmpgnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EDD7AAAFE5750D4887F529A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CCC100435BEFCDEE49FC1AD0 = {
+						TestTargetID = 2ABF59EE1382F6E2C3ADF0D9;
+					};
+				};
+			};
+			buildConfigurationList = 18F3EA50CF989BB3F996D4F6 /* Build configuration list for PBXProject "healthsulingfengqmpgn" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				"zh-Hans",
+			);
+			mainGroup = 7D993A034019B3899F943E15;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FC726C14BA766BCF48090E3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2ABF59EE1382F6E2C3ADF0D9 /* healthsulingfengqmpgn */,
+				CCC100435BEFCDEE49FC1AD0 /* healthsulingfengqmpgnUITests */,
+				EF0D4C68B305AADBC942A3B4 /* healthsulingfengqmpgnTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BB21D2A3387E0876457CEED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF8433A85846896C5D90B5C /* Assets.xcassets in Resources */,
+				DC9A9EBB65192A55BE1DA70F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59CE262BEA5EBC28CF8E9710 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48F914F3019A8D187ECBBD56 /* AchievementData.swift in Sources */,
+				449A12BBC7370625A0EE967D /* AchievementsView.swift in Sources */,
+				ED553310E873376F93BA3892 /* AppModel.swift in Sources */,
+				032D68402912AED9CEA39999 /* AppleHealthView.swift in Sources */,
+				7C37DFACEC214787735F77BA /* ArticleData.swift in Sources */,
+				900181A9E15863AB0C71A3A7 /* AssessmentViews.swift in Sources */,
+				4E42CF5B8EA04401F0510AFB /* Components.swift in Sources */,
+				0A361522797B3069CADD786E /* DashboardView.swift in Sources */,
+				CDF6780DA5CF987192F6A489 /* DemoData.swift in Sources */,
+				4C45623E8E7EB6286C7682E4 /* HealthKitService.swift in Sources */,
+				9E9FB34A408002688AD3A83D /* HistoryView.swift in Sources */,
+				8B81C9089BB5D41811B7BE8A /* HomeView.swift in Sources */,
+				5D99F491065B2B2B4A245A38 /* InsightsEngine.swift in Sources */,
+				12A873D46F9725415997E5DF /* InsightsView.swift in Sources */,
+				CBFDAF5DCA8534F834B4CE63 /* JourneyData.swift in Sources */,
+				DC3BA9FBB0BD9EE86ECDD9B6 /* JourneyView.swift in Sources */,
+				7BCE691BC18B49E3D9DD658C /* ManualLogView.swift in Sources */,
+				4D8EFEC0957E9BF3F060F31F /* MeView.swift in Sources */,
+				CC1E2524C0E96DFB8E3CC573 /* MeasurementEngine.swift in Sources */,
+				E5E743877D743A85F43C5DC8 /* MeasurementFlow.swift in Sources */,
+				89EC141AE75D62EF809BA37A /* MonthlyOverviewView.swift in Sources */,
+				11A4675693CC2F12238EF6C9 /* NotificationService.swift in Sources */,
+				0B0F9FCDB0FA828C1B65C8EA /* OnboardingView.swift in Sources */,
+				E1481E0297850AA6E36891C5 /* PaywallView.swift in Sources */,
+				CE61E3B2AECB1CA7657BF12A /* Persistence.swift in Sources */,
+				7321CBC924B45C7F7543D897 /* ProfileView.swift in Sources */,
+				C744A80B09427503A28FF309 /* ProgressEngine.swift in Sources */,
+				0CF07D0033C18BED157C650C /* RemindersView.swift in Sources */,
+				84694DDA860CE84036EC4302 /* SubscriptionStore.swift in Sources */,
+				8A1C08FC2BE763D231256BE9 /* TagCatalog.swift in Sources */,
+				79ACB21B2D23BE66FD4E315C /* TagsView.swift in Sources */,
+				BFDCD2551630036689A6EB60 /* Theme.swift in Sources */,
+				DEFFA3288DC3FB2C47E87305 /* UpdateService.swift in Sources */,
+				4017ED5ED3EF3218E0A6F007 /* healthsulingfengqmpgnApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9771B22EA1631C7401D4C18F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06863BCBC0AE260C7B0DA577 /* HealthSenseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED2BCF59F45B31D40E7EECBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226927D42349158F1FFAB0AE /* HealthSenseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7156C2B046930B511417654B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2ABF59EE1382F6E2C3ADF0D9 /* healthsulingfengqmpgn */;
+			targetProxy = 72B639F897F56064EAD97708 /* PBXContainerItemProxy */;
+		};
+		7AB1BEE0304F30ACEE2339B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2ABF59EE1382F6E2C3ADF0D9 /* healthsulingfengqmpgn */;
+			targetProxy = 936712B24F71B37BB5EC0BEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B3C175E63A4C2068E96E6B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B3E11AD5C001BDE8D7C8539 /* en */,
+				C596C2139048394236604CF9 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6E493C2ABC9FB8361DF543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = healthsulingfengqmpgn/healthsulingfengqmpgn.entitlements;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDevelopmentRegion = en;
+				INFOPLIST_KEY_CFBundleVersion = "$(CURRENT_PROJECT_VERSION)";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.silverdawn.frostyhill.myst;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		407F9C3B5E6752A20E974560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = healthsulingfengqmpgn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		731A765EF3D6DA93B451E003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = healthsulingfengqmpgn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		746B46E0DAFF97EBB8860387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.silverdawn.frostyhill.myst.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = healthsulingfengqmpgn;
+			};
+			name = Release;
+		};
+		B8DA8022F24AA0B01961A82A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.silverdawn.frostyhill.myst.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/healthsulingfengqmpgn.app/healthsulingfengqmpgn";
+			};
+			name = Release;
+		};
+		BF75F71145EC141F5C73C6EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = healthsulingfengqmpgn/healthsulingfengqmpgn.entitlements;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDevelopmentRegion = en;
+				INFOPLIST_KEY_CFBundleVersion = "$(CURRENT_PROJECT_VERSION)";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.silverdawn.frostyhill.myst;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		C736B18BD30E2F8E539C5F7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.silverdawn.frostyhill.myst.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = healthsulingfengqmpgn;
+			};
+			name = Debug;
+		};
+		F01ED427F05AD88A6337A471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.silverdawn.frostyhill.myst.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/healthsulingfengqmpgn.app/healthsulingfengqmpgn";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F3EA50CF989BB3F996D4F6 /* Build configuration list for PBXProject "healthsulingfengqmpgn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF75F71145EC141F5C73C6EB /* Debug */,
+				1D6E493C2ABC9FB8361DF543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8A4D5CD15F96BB0FEFA818FB /* Build configuration list for PBXNativeTarget "healthsulingfengqmpgnUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C736B18BD30E2F8E539C5F7C /* Debug */,
+				746B46E0DAFF97EBB8860387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C242A4477E7A7FAAED219CBC /* Build configuration list for PBXNativeTarget "healthsulingfengqmpgnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F01ED427F05AD88A6337A471 /* Debug */,
+				B8DA8022F24AA0B01961A82A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E6D8311289C8167F91BAB288 /* Build configuration list for PBXNativeTarget "healthsulingfengqmpgn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				407F9C3B5E6752A20E974560 /* Debug */,
+				731A765EF3D6DA93B451E003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EDD7AAAFE5750D4887F529A /* Project object */;
+}

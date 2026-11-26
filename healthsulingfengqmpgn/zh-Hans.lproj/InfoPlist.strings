@@ -1,0 +1,6 @@
+"CFBundleDisplayName" = "心率检测助手";
+"CFBundleName" = "心率检测助手";
+"NSCameraUsageDescription" = "我们需要使用相机来测量您的心率。";
+"NSPhotoLibraryUsageDescription" = "从相册中选择头像照片。";
+"NSHealthShareUsageDescription" = "授权访问健康数据后，应用可以为您提供个性化且详细的健康洞察。";
+"NSHealthUpdateUsageDescription" = "授权访问健康数据后，应用可以为您提供个性化且详细的健康洞察。";
