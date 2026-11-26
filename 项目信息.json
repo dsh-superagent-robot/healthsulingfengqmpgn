@@ -1,0 +1,54 @@
+{
+  "app": {
+    "ad_position_id_list": [],
+    "app_customer_email": "sulingfeng_dev@163.com",
+    "app_id": "6823553763",
+    "app_name": "心率检测助手",
+    "app_name_en": "Heart Rate Detection Assistant",
+    "design_md_name": "JobToday_DS",
+    "developer": "sulingfeng",
+    "family_id": "wear",
+    "ip": "47.237.120.206",
+    "is_test": 1,
+    "is_topon_oversea": 1,
+    "is_upload_to_appstore": 0,
+    "latest_version": "1.0.0 (准备分发)",
+    "privacy_url": "https://idawear.xyz/xinlvjiancezhushou/privacy.html",
+    "requirement_name": "V1.0.1_HeartSense_PRD",
+    "requirements_path": "http://121.41.113.67:8099/api/metadata/requirements/download?big_app_id=835&requirement_name=V1.0.1_HeartSense_PRD",
+    "sku": "com.silverdawn.frostyhill.myst",
+    "subscription": 1,
+    "subscription_share_group": "group.com.sulingfeng.wear",
+    "topon_app_id": "",
+    "topon_app_key": "",
+    "topon_enable": 0,
+    "youmeng_key": "69ae7db36f259537c772a654"
+  },
+  "icon": {
+    "category": "健康,心率监测",
+    "icon_name": "HealthSulingfengQmpgn",
+    "icon_url": "http://121.41.113.67:8099/api/static/file/uploaded_icon/643acf333a7a0b592bcb7823fc6ef146_1795141498.jpg"
+  },
+  "subscriptions": [
+    {
+      "subscription_id": 2827,
+      "subscription_name": "Weekly Pro",
+      "product_id": "com.silverdawn.frostyhill.myst.week.wear",
+      "price": "7.99",
+      "duration": "THREE_DAYS",
+      "is_onboarding": 1,
+      "is_default": 1,
+      "type": "week"
+    },
+    {
+      "subscription_id": 2828,
+      "subscription_name": "Yearly Pro",
+      "product_id": "com.silverdawn.frostyhill.myst.year.wear",
+      "price": "39.99",
+      "duration": "",
+      "is_onboarding": 0,
+      "is_default": 0,
+      "type": "year"
+    }
+  ]
+}
